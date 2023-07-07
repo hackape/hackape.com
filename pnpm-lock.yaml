@@ -32,6 +32,9 @@ devDependencies:
   mdsvex:
     specifier: ^0.10.6
     version: 0.10.6(svelte@4.0.5)
+  postcss-import:
+    specifier: ^15.1.0
+    version: 15.1.0(postcss@8.4.25)
   prettier:
     specifier: ^2.8.0
     version: 2.8.8
