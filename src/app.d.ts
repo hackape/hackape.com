@@ -9,4 +9,10 @@ declare global {
   }
 }
 
+declare module "~icons/*" {
+  import { SvelteComponent } from "svelte";
+  import { SvelteHTMLElements } from "svelte/elements";
+  export default class extends SvelteComponent<SvelteHTMLElements["svg"]> {}
+}
+
 export {};
