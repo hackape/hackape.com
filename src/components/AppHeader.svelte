@@ -2,7 +2,7 @@
 import { darkMode } from "$lib/utils";
 
 function toggleDarkMode() {
-  darkMode.update((bool) => !bool);
+  $darkMode = !$darkMode;
 }
 </script>
 
