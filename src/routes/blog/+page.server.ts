@@ -6,3 +6,5 @@ export const load: PageServerLoad = async (event) => {
   const posts: IPost[] = await resp.json();
   return { posts };
 };
+
+export const prerender = true;
